@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0d10" />
+    <meta
+      name="description"
+      content="Portfólio de Arthur Nunes Freitas — estudante de Tecnologia da Informação com foco em hardware, manutenção e suporte."
+    />
+    <meta property="og:title" content="Arthur Nunes Freitas — Portfólio" />
+    <meta property="og:description" content="Hardware, manutenção e tecnologia em evolução contínua." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Arthur Nunes Freitas — Portfólio" />
+    <meta name="twitter:description" content="Hardware, manutenção e tecnologia em evolução contínua." />
+    <meta name="twitter:image" content="/og.png" />
+    <title>Arthur Nunes Freitas — Hardware & TI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body class="terminal-theme">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="boot-screen" aria-hidden="true">
+      <div class="boot-mark">ANF<span>.</span></div>
+      <div class="boot-line"><i></i></div>
+      <p>arthur@anf-hw:~$ ./portfolio --initialize</p>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="pointer-readout" aria-hidden="true">
+      <span>PTR_X <b data-pointer-x>0000</b></span>
+      <span>PTR_Y <b data-pointer-y>0000</b></span>
+    </div>
+
+    <header class="site-header" id="topo">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">ANF<span>.</span></a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#perfil">Perfil</a>
+        <a href="#competencias">Competências</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="availability"><span></span> Disponível para estágio</div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="sr-only">Abrir menu</span><i></i><i></i>
+      </button>
+    </header>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Navegação móvel" aria-hidden="true">
+      <div class="mobile-menu__meta">NAVIGATION / ANF.SYS</div>
+      <a href="#perfil"><span>01</span> Perfil</a>
+      <a href="#competencias"><span>02</span> Competências</a>
+      <a href="#projetos"><span>03</span> Projetos</a>
+      <a href="#formacao"><span>04</span> Formação</a>
+      <a href="#contato"><span>05</span> Contato</a>
+      <p><b></b> Disponível para estágio em TI</p>
+    </nav>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio">
+        <div class="hero__backdrop" aria-hidden="true">
+          <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="/og.png">
+            <source
+              src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div class="hero__veil"></div>
+          <div class="hero__scan"></div>
+        </div>
+        <div class="hero__copy">
+          <div class="eyebrow reveal">PORTFÓLIO / 2026 <span>BELO HORIZONTE · MG</span></div>
+          <p class="hero__role reveal">TI · HARDWARE · SUPORTE</p>
+          <h1 aria-label="Arthur Nunes Freitas">
+            <span><b>ARTHUR</b></span>
+            <span><b>NUNES</b></span>
+            <span><b>FREITAS<i>.</i></b></span>
+          </h1>
+          <p class="hero__intro reveal">
+            Estudante de Tecnologia da Informação transformando curiosidade técnica em experiência prática.
+          </p>
+          <div class="hero__tags reveal">
+            <span>Montagem</span><span>Manutenção</span><span>Suporte</span>
+          </div>
+          <div class="hero__actions reveal">
+            <a class="button button--dark" href="#projetos">Ver registros <span>↘</span></a>
+            <a class="button button--light" href="#contato">Entrar em contato <span>↗</span></a>
+          </div>
+        </div>
+
+        <aside class="diagnostic reveal" aria-label="Perfil técnico resumido">
+          <div class="diagnostic__top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>SYSTEM PROFILE</span>
+          </div>
+          <div class="board" aria-hidden="true">
+            <span class="board__cpu">ANF<br /><small>CPU</small></span>
+            <i class="trace trace--one"></i><i class="trace trace--two"></i><i class="trace trace--three"></i>
+            <b class="pin pin--one"></b><b class="pin pin--two"></b><b class="pin pin--three"></b>
+          </div>
+          <dl>
+            <div><dt>USUÁRIO</dt><dd>Arthur Nunes Freitas</dd></div>
+            <div><dt>FUNÇÃO</dt><dd>Estudante de TI</dd></div>
+            <div><dt>FOCO</dt><dd class="accent">Hardware e manutenção</dd></div>
+            <div><dt>STATUS</dt><dd>Buscando primeira oportunidade</dd></div>
+          </dl>
+          <div class="diagnostic__status">
+            <span><i></i>SISTEMA ONLINE</span><span><i></i>APRENDIZADO ATIVO</span>
+          </div>
+        </aside>
+
+        <div class="hero__footer mono reveal">SYS.01 / PERFIL INICIALIZADO</div>
+      </section>
+
+      <div class="ticker" aria-label="Áreas de interesse">
+        <div class="ticker__track">
+          <span>HARDWARE <i>/</i> TECNOLOGIA <i>/</i> APRENDIZADO <i>/</i> MANUTENÇÃO <i>/</i> SUPORTE <i>/</i> EVOLUÇÃO <i>/</i></span>
+          <span aria-hidden="true">HARDWARE <i>/</i> TECNOLOGIA <i>/</i> APRENDIZADO <i>/</i> MANUTENÇÃO <i>/</i> SUPORTE <i>/</i> EVOLUÇÃO <i>/</i></span>
+        </div>
+      </div>
+
+      <section class="profile section" id="perfil">
+        <div class="section-label reveal"><span>01</span> PERFIL / BUILD_02</div>
+        <div class="profile__content">
+          <h2 class="reveal">Entender por dentro.<br /><em>Resolver na prática.</em></h2>
+          <div class="profile__text reveal">
+            <p>Meu interesse por tecnologia começou quando passei a observar como cada componente trabalha em conjunto.</p>
+            <p>Hoje curso o Ensino Médio Técnico em Tecnologia da Informação no COTEMIG, com maior afinidade por montagem, manutenção de computadores e suporte técnico.</p>
+            <p>Também avanço em C#, HTML e CSS para conectar hardware e software em uma formação mais completa.</p>
+          </div>
+        </div>
+        <p class="profile__statement reveal">HARDWARE FIRST. <span>SOFTWARE IN PROGRESS.</span></p>
+      </section>
+
+      <section class="skills section section--soft" id="competencias">
+        <div class="section-heading reveal">
+          <div class="section-label"><span>02</span> MÓDULOS DE CONHECIMENTO</div>
+          <h2>Competências<span>.</span></h2>
+          <p>Conhecimento construído com estudo, prática e curiosidade técnica.</p>
+        </div>
+
+        <div class="skills-grid stagger">
+          <article class="skill-card skill-card--primary reveal">
+            <div class="card-top"><span>ANF-HW / 01</span><b>FOCO PRINCIPAL</b></div>
+            <div class="skill-icon" aria-hidden="true">⌁</div>
+            <h3>Hardware</h3>
+            <ul><li>Montagem de computadores</li><li>Identificação de componentes</li><li>Organização interna</li><li>Manutenção e diagnóstico básico</li><li>Suporte técnico inicial</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="card-top"><span>ANF-SW / 02</span><b>EM EVOLUÇÃO</b></div>
+            <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Software</h3>
+            <ul><li>C# e lógica de programação</li><li>HTML semântico</li><li>CSS responsivo</li><li>Interfaces para web</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="card-top"><span>ANF-OP / 03</span><b>FERRAMENTAS</b></div>
+            <div class="skill-icon" aria-hidden="true">▦</div>
+            <h3>Operação</h3>
+            <ul><li>Google Workspace</li><li>Microsoft Office 365</li><li>Documentação técnica</li><li>Organização e aprendizado contínuo</li></ul>
+          </article>
+        </div>
+
+        <div class="learning-strip reveal">
+          <span>PRÓXIMOS MÓDULOS</span>
+          <div><b>Redes</b><b>Suporte de campo</b><b>Desenvolvimento</b><b>Manutenção avançada</b></div>
+        </div>
+      </section>
+
+      <section class="projects section section--dark" id="projetos">
+        <div class="section-heading reveal">
+          <div class="section-label"><span>03</span> REGISTROS DE PROJETO</div>
+          <h2>Prática documentada<span>.</span></h2>
+          <p>Experiências atuais apresentadas com contexto, processo e aprendizado.</p>
+        </div>
+
+        <div class="projects-grid stagger">
+          <article class="project-card reveal">
+            <div class="project-card__top"><span>ANF-HW-001</span><i>EXPERIÊNCIA PRÁTICA</i></div>
+            <div class="project-card__visual visual-pc" aria-hidden="true"><b></b><i></i><i></i><i></i><span>ASSEMBLY<br />CHECK</span></div>
+            <div class="project-card__body">
+              <p>HARDWARE / ORGANIZAÇÃO</p><h3>Montagem de computador</h3>
+              <p>Instalação e organização de componentes, identificação das peças e verificação inicial.</p>
+              <details><summary>Ver registro <span>+</span></summary><div><b>PROCESSO</b> Preparação, instalação, organização de cabos e conferência das conexões.<br /><b>APRENDIZADO</b> Compatibilidade, cuidado no manuseio e importância da organização interna.</div></details>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__top"><span>ANF-SW-002</span><i>EM APRENDIZADO</i></div>
+            <div class="project-card__visual visual-code" aria-hidden="true"><code>01&nbsp; using System;<br />02&nbsp; class Program<br />03&nbsp; {<br />04&nbsp;&nbsp; Learn();<br />05&nbsp; }</code></div>
+            <div class="project-card__body">
+              <p>SOFTWARE / LÓGICA</p><h3>Estudos em C#</h3>
+              <p>Exercícios para desenvolver raciocínio lógico e compreender fundamentos de programação.</p>
+              <details><summary>Ver registro <span>+</span></summary><div><b>FOCO</b> Variáveis, condicionais, estruturas de repetição e organização do código.<br /><b>PRÓXIMO PASSO</b> Criar uma aplicação simples ligada ao suporte técnico.</div></details>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__top"><span>ANF-WEB-003</span><i>ONLINE</i></div>
+            <div class="project-card__visual visual-web" aria-hidden="true"><div><span>ANF.</span><b></b><b></b><b></b></div></div>
+            <div class="project-card__body">
+              <p>WEB / DESIGN</p><h3>Este portfólio</h3>
+              <p>Interface responsiva criada para apresentar trajetória, competências e evolução profissional.</p>
+              <details><summary>Ver registro <span>+</span></summary><div><b>DECISÕES</b> Identidade editorial técnica, hierarquia forte e movimento discreto.<br /><b>TECNOLOGIAS</b> HTML, CSS e JavaScript.</div></details>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="education section" id="formacao">
+        <div class="section-heading reveal">
+          <div class="section-label"><span>04</span> FORMAÇÃO / TIMELINE</div>
+          <h2>Trajetória<span>.</span></h2>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline__rail"><span>2025</span><i></i><b></b><span>2026</span></div>
+          <div class="timeline__content">
+            <span>COTEMIG · UNIDADE FLORESTA</span>
+            <h3>Ensino Médio Técnico em Tecnologia da Informação</h3>
+            <p>2º ano · Formação em andamento</p>
+            <div><i></i> STATUS: EM PROGRESSO</div>
+          </div>
+          <aside>
+            <p>OBJETIVO ATUAL</p>
+            <strong>Transformar conhecimento técnico em experiência profissional.</strong>
+          </aside>
+        </div>
+      </section>
+
+      <section class="contact section section--dark" id="contato">
+        <div class="section-label reveal"><span>05</span> CONTATO / STATUS: ABERTO</div>
+        <div class="contact__grid">
+          <div>
+            <h2 class="reveal">Vamos construir<br />o próximo passo<span>.</span></h2>
+            <p class="reveal">Busco minha primeira oportunidade profissional na área de Tecnologia da Informação, especialmente em hardware, manutenção e suporte.</p>
+            <a class="button button--blue reveal" href="mailto:arthurnunesfreitas7@gmail.com">Enviar mensagem <span>↗</span></a>
+          </div>
+          <div class="contact__details reveal">
+            <div><span>NOME</span><b>Arthur Nunes Freitas</b></div>
+            <div><span>LOCALIZAÇÃO</span><b>Belo Horizonte — MG</b></div>
+            <div><span>E-MAIL</span><a href="mailto:arthurnunesfreitas7@gmail.com">arthurnunesfreitas7@gmail.com</a></div>
+            <div><span>TELEFONE</span><a href="tel:+5531971197028">(31) 97119-7028</a></div>
+          </div>
+        </div>
+        <footer>
+          <a class="brand brand--light" href="#inicio">ANF<span>.</span></a>
+          <p>HARDWARE · TECNOLOGIA · APRENDIZADO</p>
+          <a href="#inicio">VOLTAR AO TOPO ↑</a>
+        </footer>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
